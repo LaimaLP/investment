@@ -22,7 +22,7 @@ export default function Results({ input }) {
                 <td>{yearData.year}</td>
                 <td>$ {(yearData.valueEndOfYear / 1000).toFixed(3)}</td>
                 <td>${yearData.interest.toFixed(0)}</td>
-                <td>${yearData.interest.toFixed(0)+}</td>
+                <td>${yearData.interest.toFixed(0)}</td>
                 <td>{input.initialInvestment + yearData.annualInvestment*yearData.year}</td>
 
               </tr>

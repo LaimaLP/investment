@@ -23,9 +23,11 @@ function App() {
 
   return (
     <>
-      <Header />
-      <UserInput userInput={userInput} handleChange={handleChange} />
-      <Results input={userInput} />
+      <div id="mainContain">
+        <Header />
+        <UserInput userInput={userInput} handleChange={handleChange} />
+        <Results input={userInput} />
+      </div>
     </>
   );
 }
