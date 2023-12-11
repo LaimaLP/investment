@@ -6,8 +6,5 @@ export function Header() {
             <img src={logo} alt="logo" />
             <h1>Investment Calculator</h1>
         </div>
-
-
     )
-
 }
